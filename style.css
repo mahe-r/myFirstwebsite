@@ -1,0 +1,283 @@
+html{
+    font-family: sans-serif;
+}
+p{
+    color: rgb(104, 99, 99);
+    font-size: 16px;
+    line-height: 24px;
+}
+body{
+    margin: 0%;
+    background-color:white;
+}
+header{
+    height: 80px;
+    background-color: white;
+}
+#header-container{
+    margin:auto;
+    width: 80%;
+}
+.logo{
+    padding-top: 30px;
+}
+.col-3{
+    width: 33%;
+    float: left;
+}
+.menu{
+    margin-top: 32px;
+}
+.menu li{
+    list-style-type: None;
+    display: inline;
+    font-size: .85em;
+    color: teal;
+    padding-right: 15px;
+}
+.getstartedBTN{
+    color:white;
+    background-color: rgb(144, 230, 144);
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 10px 26px;
+    margin-top: 7%;
+    
+    font-size: 17px;
+    float:right;
+}
+#top-section-main{
+    background-image: url("html images/Friends");
+    height: 700px;
+    border:none;
+}
+#top-section-content{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    
+}
+#top-section-content h1{
+    color:white;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 300;
+    margin-top: 0%;
+    padding-top: 100px;
+    margin-bottom: 15px;
+}
+#top-section-content p{
+    color:white;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+.play-button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 50px 0 110px 0;
+}
+.main-form h6{
+    text-align: center;
+    font-size: .9em;
+    font-family: sans-serif;
+    color:white;
+}
+.main-form input{
+    margin: 0%;
+    width: 30%;
+    height:40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-left: 15px;
+    border: none;
+}
+.main-form button{
+    margin: 0;
+    width: 30%;
+    height: 40px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-left: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(128, 241, 128);
+}
+#feature-section{
+    padding: 100px;
+}
+.feature-section-title{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    font-weight: 200;
+    line-height: 1.5em;
+
+}
+.feature-content{
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.feature-content .col-3 img{
+    width: 100%;
+}
+.feature-content .col-3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+.feature-content .col-3 h3{
+    text-align: center;
+}
+.feature-content .col-3{
+    padding: 10px;
+    width: 30%;
+}
+.col-2{
+    float: left;
+    width: 48%;
+}
+#showcase1-container{
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    overflow:auto;
+}
+.showcase1pic{
+    width: 100%;
+}
+.feature-text{
+    padding-top: 300px;
+    padding-left: 50px;
+    
+}
+.section-title{
+    width: 70%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.section-left{
+    width: 70%;
+    margin: auto;
+    padding:20px 10px 10px 10px;
+}
+#showcase2-container{
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.col-1{
+    width: 80%;
+    margin: auto;
+}
+#call-to-action{
+    background-image: url("html images/Darkdesk");
+    background-position: 50% 50%;
+}
+.action-title{
+    text-align: center;
+    font-size: 4em;
+    font-weight: 300;
+    color:white;
+    margin-top: 0%;
+    padding-top: 100px;
+
+}
+.col-1 p{
+   text-align: center;
+   font-size: 1.6em;
+   font-weight: 300;
+   color:white;
+   margin-top: 0%;
+   padding-bottom: 60px;
+
+}
+.signupBTN{
+    color:white;
+    background-color: rgb(144, 230, 144);
+    border-radius: 28px;
+    text-decoration: none;
+    padding: 10px 26px;
+    margin-top: 7%;
+    font-size: 17px;
+}
+.signupBTN:hover{
+    background-color: rgb(143, 143, 94);
+}
+.signup{
+    padding: 100px ;
+    
+}
+.signup .col-2 p{
+    font-style: italic;
+    padding-bottom: 100px;
+}
+.signupform{
+    background-color: #f6f8fa;
+    margin-right: 200px;
+    padding: 0px 50px 10px;
+}
+.signupform h6{
+    color:black;
+    padding-top:15px;
+    font-size: .9em;
+    text-align: center;
+}
+input{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    border: none;
+    margin-top: 15px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    font-family: sans-serif;
+    margin: 0px;
+    font-weight: 100;
+    background-color: rgb(138, 218, 138);
+    color: white;
+    border: none;
+    margin-top: 15px;
+}
+footer{
+    background-image: url("html images/Footerbg");
+    clear: both;
+    height: 500px;
+    background-position: 50% 50%;
+}
+.social-footer:hover{
+    background-color: rgb(56, 46, 46);
+    opacity: 50%;
+}
+.social-footer{
+    margin: auto;
+    width: 33%;
+    float: left;
+}
+.center{
+    width: 50px;
+    margin: auto;
+    padding-top: 60px;
+}
+.copyright-content{
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+    display: block;
+    font-weight: 300;
+}
